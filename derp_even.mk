@@ -25,10 +25,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/even/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_even
+PRODUCT_NAME := derp_even
 PRODUCT_DEVICE := even
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := realme C25 Series
+PRODUCT_MODEL := TheUnknownDevice
 PRODUCT_MANUFACTURER := realme
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
