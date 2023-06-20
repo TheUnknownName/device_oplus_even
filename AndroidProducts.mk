@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_even.mk
+    $(LOCAL_DIR)/miku_even.mk
+    
+COMMON_LUNCH_CHOICES := \
+     miku_even-user \
+     miku_even-userdebug \
+     miku_even-eng

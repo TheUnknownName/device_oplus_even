@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-derp
+    $(DEVICE_PATH)/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
